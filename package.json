@@ -1,6 +1,7 @@
 {
   "name": "random-quote-machine",
   "version": "0.1.0",
+  "homepage": "https://PhillipJBridgeman.github.io/random-quote-machine",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.7.2",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
